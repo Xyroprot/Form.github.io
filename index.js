@@ -1,3 +1,12 @@
+import "./style.css";
+import Api from "./js/Api.js";
+import Card from "./js/Card.js";
+import CardList from "./js/CardList.js";
+import FormValidator from "./js/FormValidator.js";
+import Popup from "./js/Popup.js";
+import PopupLightBox from "./js/PopupLightBox.js";
+import UserInfo from "./js/UserInfo.js";
+
 // Api
 const config = {
   baseUrl: 'https://praktikum.tk/cohort9',

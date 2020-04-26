@@ -1,4 +1,4 @@
-class UserInfo { //класс для работы с данными пользователя
+export default class UserInfo { //класс для работы с данными пользователя
   constructor(name, about, avatar, api) {
     this.name = name;
     this.about = about;
