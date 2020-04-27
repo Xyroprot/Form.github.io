@@ -1,5 +1,4 @@
-
-export default class Api {
+class Api {
   constructor(config) {
     this.config = config;
   }

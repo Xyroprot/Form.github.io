@@ -1,4 +1,4 @@
-export default class Card { // класс, создающий карточку и добавляющий ее элементам обработчики событий
+class Card { // класс, создающий карточку и добавляющий ее элементам обработчики событий
   constructor(name, link) {
     this.cardElement = this.create(name, link);
   }

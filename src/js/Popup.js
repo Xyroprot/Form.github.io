@@ -1,4 +1,4 @@
-export default class Popup { //класс для всплывающего окна
+class Popup { //класс для всплывающего окна
   constructor (popup) {
     this.popup = popup;
     this.eventClose(popup);

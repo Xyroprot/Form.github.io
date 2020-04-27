@@ -1,4 +1,4 @@
-export default class CardList { // класс для хранения и отрисовки карточек
+class CardList { // класс для хранения и отрисовки карточек
   constructor(container, cardInstance, api) { // принимает два аргумента: DOM-элемент - контейнер, куда нужно складывать карточки и массив карточек поумолчанию
     this.container = container;
     this.card = cardInstance;
@@ -26,3 +26,11 @@ export default class CardList { // класс для хранения и отр�
 }
 
 
+/*
+.then((res) => {
+        if (res.ok) {
+          return res.json();
+        }
+        return Promise.reject(res.status);
+      })
+*/

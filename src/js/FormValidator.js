@@ -1,4 +1,4 @@
-export default class FormValidator { // класс для валидации полей формы
+class FormValidator { // класс для валидации полей формы
   constructor(popupElement) {
     this.setEventListeners(popupElement);
   }
