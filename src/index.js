@@ -7,9 +7,11 @@ import Popup from "./js/Popup.js";
 import PopupLightBox from "./js/PopupLightBox.js";
 import UserInfo from "./js/UserInfo.js";
 
+console.log(process.env);
+//const serverUrl = NODE_ENV === 'development' ? 'http://praktikum.tk/cohort9' : 'https://praktikum.tk/cohort9'
 // Api
 const config = {
-  baseUrl: 'https://praktikum.tk/cohort9',
+  baseUrl: 'http://praktikum.tk/cohort9',
   headers: {
     authorization: '9a39461d-79a5-4fa9-aab0-d66d1ab77053',
     'Content-Type': 'application/json'
