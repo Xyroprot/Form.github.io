@@ -9,10 +9,9 @@ import UserInfo from "./js/UserInfo.js";
 
 console.log(process.env.API_URL);
 console.log(process.env.NODE_ENV);
-const serverUrl = process.env.API_URL;
 // Api
 const config = {
-  baseUrl: serverUrl,
+  baseUrl: process.env.API_URL,
   headers: {
     authorization: '9a39461d-79a5-4fa9-aab0-d66d1ab77053',
     'Content-Type': 'application/json'

@@ -2,6 +2,7 @@
 export default class Api {
   constructor(config) {
     this.config = config;
+    this._request.bind(this)
   }
 
   getUserInfo() { // загрузка информации о пользователе с сервера
