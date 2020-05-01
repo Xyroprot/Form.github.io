@@ -7,12 +7,12 @@ import Popup from "./js/Popup.js";
 import PopupLightBox from "./js/PopupLightBox.js";
 import UserInfo from "./js/UserInfo.js";
 
-//console.log(process.env.API_URL);
+console.log(API_URL);
 //console.log(process.env.NODE_ENV);
 //console.log(process.env);
 // Api
 const config = {
-  baseUrl: process.env.API_URL,
+  baseUrl: API_URL,
   headers: {
     authorization: '9a39461d-79a5-4fa9-aab0-d66d1ab77053',
     'Content-Type': 'application/json'
