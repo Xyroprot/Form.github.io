@@ -5,7 +5,6 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const WebpackMd5Hash = require('webpack-md5-hash');
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const isDev = process.env.NODE_ENV === 'development';
-//const FileLoader = require('file-loader');
 
 module.exports = {
     entry: { main: './src/index.js' },
@@ -47,8 +46,8 @@ module.exports = {
     plugins: [ 
         new webpack.DefinePlugin({
             'NODE_ENV': JSON.stringify(process.env.NODE_ENV),
-            //'API_URL': JSON.stringify(process.env.API_URL)
-        }),
+            'process.env.API_URL': JSON.stringify(process.env.API_URL) 
+        }),    
         new MiniCssExtractPlugin({filename: 'style.[contenthash].css'}),
         new OptimizeCssAssetsPlugin({
             assetNameRegExp: /\.css$/g,
