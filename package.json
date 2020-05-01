@@ -1,5 +1,6 @@
 {
   "name": "sprint_11",
+  "homepage": "https://github.com/Xyroprot/form/", 
   "version": "0.0.1",
   "description": "photo_collection",
   "main": "index.js",
@@ -23,7 +24,6 @@
   "bugs": {
     "url": "https://github.com/Xyroprot/form/issues"
   },
-  "homepage": "https://xyroprot.github.io/form/",
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.9.0",
